@@ -702,8 +702,37 @@
         font-size: 33px;
         line-height: 41px;
     }
+    .slider__btn .htc__btn{
+        position: inherit!important;
+            font-size: 1.1em!important;
+    width: 100%;
+    display: block;
+    top: 6.5em!important;
+        padding: .5em 1.1em!important;
+
+    }
+    .slider__btn.slider1_btn a.htc__btn{ 
+    right: 0em;
+     top: 6.5em;
+}
+.slider__btn.slider2_btn a.htc__btn{ 
+    left: 0em;
+     top: 6.5em;
+}.slider__btn.slider3_btn a.htc__btn{ 
+    left: 0em;
+     top: 6.5em;
+}
+.slider__btn.slider4_btn a.htc__btn{ 
+     top: 6.5em;
+    left: 0em;
+}
+.slider__btn.slider5_btn a.htc__btn{ 
+    left: 0em;
+     top: 6.5em;
+}
     .slider__full--screen {
-        height: 100vh;
+        background-size: 100%!important;
+        height: 340px;
     }
     .product__menu button {
         font-size: 15px;
@@ -717,6 +746,11 @@
         font-size: 24px;
         line-height: 33px;
     }
+   .sticky__header.scroll-header .logo img {
+    max-width: 17em;
+    margin-left: -22px;
+}
+
     .new__product.text__align--left .new__product__details {
         left: 30px;
     }
@@ -1136,10 +1170,13 @@
         padding-right: 44px;
     }
     .slider__inner {
-        padding-top: 55px;
+        padding-top:20em;
     }
+    .header--3 .mainmenu__area .container-fluid {
+    padding: 0;}
     .logo img {
-        max-width: inherit;
+    max-width: 20em;
+    margin-left: -22px;
     }
     .menu-extra {
         margin-right: 40px;
@@ -1403,7 +1440,12 @@
     .product-video {
         padding: 0 0 20px 20px;
     }
-    
+        .mobile_slider{
+        display: block!important;
+    }
+    .desktop_slider{
+        display: none!important;
+    }
     
     
     
@@ -1453,4 +1495,6 @@
     .buttons-cart a {
         margin-top: 0px;
     }
+
+
 }

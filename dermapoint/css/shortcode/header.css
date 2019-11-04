@@ -186,14 +186,16 @@
   top: 0;
   width: 100%;
   z-index: 99;
+  padding-right: 63px;
+  padding-left: 63px;
 }
 .sticky__header.scroll-header .logo a {
-  height: 70px;
-  line-height: 70px;
+  height: 100px;
+  line-height: 100px;
 }
 .sticky__header.scroll-header .main__menu > li > a {
-  height: 70px;
-  line-height: 70px;
+  height: 100px;
+  line-height: 100px;
 }
 .sticky__header.scroll-header .menu-extra li a span {
   height: 60px;

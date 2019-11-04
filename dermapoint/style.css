@@ -4171,12 +4171,12 @@ a.shipping-calculator-button:hover {
     -webkit-box-pack: space-evenly;
     -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
-    padding: 0.5em 0;
+    padding: 0.8em 0;
 }
 
 .marcas-banner .logo {
     height: auto;
-    max-width: 90px;
+    max-width: 120px;
     width: 100%;
 }
 
@@ -4191,4 +4191,21 @@ a.shipping-calculator-button:hover {
     margin: 0 auto;
     width: 100%;
 }
-
+.buyButtonList{
+    padding: 0 10px;
+}
+.buyButton{
+    text-shadow: 0.5px 0.2px 0.5px #333;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    background-color: #97abc2;
+    color: #FFFFFF!important;
+    padding: 0 0.7em;
+    background: linear-gradient(0.45turn, #97abc2, #6b92b3);
+}
+    .mobile_slider{
+        display: none;
+    }
+    .desktop_slider{
+        display: block;
+    }
